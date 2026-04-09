@@ -101,13 +101,6 @@ Clone the repository:
 git clone https://github.com/MasoudiYosef/GoalPath.git
 cd GoalPath
 ```
-
-Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 ## Usage
