@@ -7,16 +7,15 @@ This repository contains the datasets and source code associated with the optimi
 ---
 
 ## Overview
+<p align="justify">
+GoalPath divides a soccer field into multiple subfields, each represented as a node in a graph. The edges of the graph represent ball transitions between these subfields, enabling the analysis of ball movement patterns and attacking strategies. The framework can be applied to:
 
-GoalPath is designed to support soccer analytics by transforming match events and player interactions into graph structures.  
-The framework can be applied to:
-
-- Discover potential **goal-scoring paths**
-- Analyze **team performance**
-- Support **player substitution decisions**
-- Assist in **tactical evaluation**
-- Evaluate different optimization strategies for graph-based path discovery
-
+- Discover potential goal-scoring paths using metaheuristic optimization algorithms.
+- Analyze team performance based on passes exchanged between different field zones.
+- Support player substitution decisions by identifying isolated or underutilized players within the graph.
+- Assist tactical evaluation through the analysis of previous matches and the identification of key opposing players.
+- Support team formation and lineup planning by considering the strengths, weaknesses, and playing patterns demonstrated by the opposing team.
+</p>
 ---
 
 ## Repository Contents
