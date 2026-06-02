@@ -56,12 +56,12 @@ This repository includes datasets derived from 10 real-world soccer matches, wit
 
 ---
 
-**Implemented Optimization Algorithms**
+## Implemented Optimization Algorithms
 <p align="justify">
 GoalPath incorporates five well-known optimization algorithms. These algorithms were selected because previous studies have demonstrated their effectiveness in terms of convergence speed, solution quality, and stability. Furthermore, the algorithms employ different search operators and exploration strategies, which can lead to the discovery of diverse goal-scoring paths and provide soccer analysts and coaches with a broader range of tactical recommendations.
-
+</p>
 The implemented algorithms are described below:
-
+<p align="justify">
 **Trader (TR)**: This algorithm is inspired by trader behavior in financial markets. The file Trader.py contains a ready-to-run implementation of the algorithm.
 
 **WCC (World Competitive Contests)**: This algorithm is inspired by competitive contests and sporting competitions. The file WCC.py contains a ready-to-run implementation of the algorithm.
@@ -71,9 +71,9 @@ The implemented algorithms are described below:
 **Whale Optimization Algorithm (WOA)**: This algorithm is inspired by the social behavior and hunting strategies of whales. The file WOA.py contains a ready-to-run implementation of the algorithm.
 
 **Grey Wolf Optimization Algorithm (Wolf)**: This algorithm is inspired by the leadership hierarchy and hunting behavior of grey wolves. The file Wolf.py contains a ready-to-run implementation of the algorithm.
+</p>
 
-
-**Running the Algorithms**
+### Running the Algorithms
 
 The source code can be executed on different operating systems with minimal configuration. Before running an algorithm, follow these steps:
 
@@ -82,7 +82,7 @@ Set the FP variable to the path of the match graph (dataset) you wish to analyze
 Configure the rn variable, which specifies the number of independent executions. To run an algorithm only once, set the corresponding range to (1, 2).
 Create an empty RST folder, as the algorithms store their output files in this directory.
 
-**Output**
+### Output
 
 After running an algorithm, the results will be automatically generated in the RST folder. A separate output file is created for each algorithm, dataset, and execution run.
 
