@@ -1,4 +1,4 @@
-# GoalPath
+**GoalPath**
 <p align="justify">
 **GoalPath** is a graph-based decision support framework for soccer match analysis and goal-oriented path discovery. It models soccer matches as graphs and applies graph traversal techniques, together with metaheuristic optimization algorithms, to identify promising goal-scoring paths, recommend player substitutions using the DFS algorithm, and support tactical decision-making by revealing potential weaknesses in the opposing team and the strategies they use to create scoring opportunities. Furthermore, these analyses can be extended to identify key players on the opposing team, enabling soccer analysts to develop strategies to neutralize their impact and prevent dangerous situations they may create.<br>
 This repository contains the datasets and source code associated with the optimization algorithms, as well as the additional algorithms used to generate the results reported in the paper. The code is freely available under the MIT License, and users are welcome to extend and modify it to suit their specific needs.
@@ -6,7 +6,7 @@ This repository contains the datasets and source code associated with the optimi
 
 ---
 
-## Overview
+**Overview**
 <p align="justify">
 GoalPath divides a soccer field into multiple subfields, each represented as a node in a graph. The edges of the graph represent ball transitions between these subfields, enabling the analysis of ball movement patterns and attacking strategies. The framework can be applied to:
 
@@ -42,7 +42,8 @@ GoalPath/
 <p align="justify">
 This repository includes datasets derived from 10 real-world soccer matches, with data organized separately for the first and second halves of each match. The first-half datasets were used as the reference data, while the second-half datasets served as the validation set. The match data are represented using a weighted edge list graph representation. In each text file, every row corresponds to an edge and contains the source node, target node, and the weight of the edge connecting them. In the context of GoalPath, nodes represent field subregions, while edge weights indicate the frequency of ball transitions between those subregions.
 </p>
-### Match Summary
+
+**Dataset Summary**
 
 | League Name | Target Team | Opponent Team | Match Date | Passes by Target Team (First Half) | Passes by Target Team (Second Half) | Final Score |
 |------------|------------|---------------|------------|------------------------------------|-------------------------------------|-------------|
@@ -54,7 +55,7 @@ This repository includes datasets derived from 10 real-world soccer matches, wit
 
 ---
 
-## Implemented Optimization Algorithms
+**Implemented Optimization Algorithms
 
 This repository provides implementations of **five optimization algorithms** used within the GoalPath framework.
 
