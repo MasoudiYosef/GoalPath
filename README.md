@@ -1,7 +1,7 @@
 **GoalPath**
 
 <p align="justify">
-**GoalPath** is a graph-based decision support framework for soccer match analysis and goal-oriented path discovery. It models soccer matches as graphs and applies graph traversal techniques, together with metaheuristic optimization algorithms, to identify promising goal-scoring paths, recommend player substitutions using the DFS algorithm, and support tactical decision-making by revealing potential weaknesses in the opposing team and the strategies they use to create scoring opportunities. Furthermore, these analyses can be extended to identify key players on the opposing team, enabling soccer analysts to develop strategies to neutralize their impact and prevent dangerous situations they may create.<br>
+GoalPath is a graph-based decision support framework for soccer match analysis and goal-oriented path discovery. It models soccer matches as graphs and applies graph traversal techniques, together with metaheuristic optimization algorithms, to identify promising goal-scoring paths, recommend player substitutions using the DFS algorithm, and support tactical decision-making by revealing potential weaknesses in the opposing team and the strategies they use to create scoring opportunities. Furthermore, these analyses can be extended to identify key players on the opposing team, enabling soccer analysts to develop strategies to neutralize their impact and prevent dangerous situations they may create.<br>
 This repository contains the datasets and source code associated with the optimization algorithms, as well as the additional algorithms used to generate the results reported in the paper. The code is freely available under the MIT License, and users are welcome to extend and modify it to suit their specific needs.
 </p>
 
@@ -138,11 +138,120 @@ You may modify the input datasets and algorithm parameters depending on the targ
 
 ---
 
+## Graph Analysis Functions (GrahFunctions.py)
+
+This python-format file contains a set of graph-related utility functions used in the GoalPath framework. The functions support graph construction, traversal, strongly connected component detection (SCC), subgraph filtering, and combinatorial node analysis.
+
+These utilities are designed to work with weighted directed graphs derived from soccer match data.
+
+---
+
+### Features
+
+- Depth-First Search (DFS) traversal
+- Strongly Connected Components (SCC) detection
+- Graph reading and construction from datasets
+- Graph transposition
+- Subgraph filtering
+- Generation of node subsets (combinatorial analysis)
+
+---
+
+### Functions
+
+#### DFS Traversal
+
+##### `DFS(node, V, F, G, n, T, ST)`
+Performs depth-first search on a graph.
+
+Purpose:
+- Visits all reachable nodes
+- Computes discovery and finishing times
+- Stores nodes in finishing order (stack)
+
+---
+
+##### `DFS2(node, V, G, n, GR)`
+Performs DFS on the transposed graph.
+
+Purpose:
+- Assigns component labels to nodes
+- Used in SCC detection
+
+---
+
+##### `DFS3(node, V, F, G, n, T, Flag)`
+Alternative DFS with condition tracking.
+
+Purpose:
+- Tracks traversal conditions
+- Used for specialized analysis
+
+---
+
+#### Graph Analysis
+
+##### `SCC(G)`
+Computes Strongly Connected Components of a directed graph.
+
+Method:
+- DFS to compute finishing order
+- Graph transposition
+- DFS on transposed graph
+
+Output:
+- Component labels for each node
+
+---
+
+#### Graph Construction
+
+##### `ReadGraph(FN)`
+Reads adjacency matrix from a file.
+
+Input:
+- CSV-like matrix file
+
+Output:
+- NumPy adjacency matrix
+
+---
+
+##### `GetGraph(FP)`
+Constructs a weighted adjacency matrix from an edge-list dataset.
+
+Output:
+- 51 × 51 weighted graph matrix
+
+---
+
+### Graph Manipulation
+
+##### `FilterGraph(G, Nodes, n)`
+Creates a subgraph by removing nodes not in the given list.
+
+---
+
+##### `Transpose(G)`
+Returns the transpose of a graph (reverses edge directions).
+
+---
+
+### Combinatorial Analysis
+
+##### `AllPossible(Nodes, V, index, LS)`
+Generates all possible subsets of a node set.
+
+Purpose:
+- Enumerates combinations of nodes for analysis
+
+---
+
 
 ## Authors
 
 - **Yosef Masoudi-Sobhanzadeh**
-- **Sercan Sağlam**
+- **Sercan Saglam**
 - **Ali Kazemi Niari**
 
 ---
