@@ -62,14 +62,21 @@ GoalPath incorporates five well-known optimization algorithms. These algorithms 
 </p>
 The implemented algorithms are described below:
 <p align="justify">
+  
 **Trader (TR)**: This algorithm is inspired by trader behavior in financial markets. The file Trader.py contains a ready-to-run implementation of the algorithm.
-
+</p>
+<p align="justify">
+  
 **WCC (World Competitive Contests)**: This algorithm is inspired by competitive contests and sporting competitions. The file WCC.py contains a ready-to-run implementation of the algorithm.
-
+</p>
+<p align="justify">
+  
 **Firefly Algorithm (FF)**: This algorithm is inspired by the flashing behavior and attraction mechanism of fireflies. The file FireFly.py contains a ready-to-run implementation of the algorithm.
-
+</p>
+<p align="justify">
 **Whale Optimization Algorithm (WOA)**: This algorithm is inspired by the social behavior and hunting strategies of whales. The file WOA.py contains a ready-to-run implementation of the algorithm.
-
+<p align="justify">
+  
 **Grey Wolf Optimization Algorithm (Wolf)**: This algorithm is inspired by the leadership hierarchy and hunting behavior of grey wolves. The file Wolf.py contains a ready-to-run implementation of the algorithm.
 </p>
 
