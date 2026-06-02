@@ -95,27 +95,12 @@ Create an empty RST folder, as the algorithms store their output files in this d
 
 After running an algorithm, the results will be automatically generated in the RST folder. A separate output file is created for each algorithm, dataset, and execution run.
 
-The generated files contain the best goal-scoring path identified during the optimization process, which can subsequently be analyzed by soccer analysts, coaches, and researchers for tactical evaluation and decision support.
+The generated files contain the best goal-scoring path identified during the optimization process, which can subsequently be analyzed by soccer analysts, coaches, and researchers for tactical evaluation and decision support. By running each algorithm, a convergence diagram is also generated.
+
+
 </p>
 
 ---
-
-## Methodology
-
-GoalPath models match events and player interactions as a graph structure, where:
-
-- **Nodes** represent subfields
-- **Edges** represent ball transitions, passes, or movements
-- **Graph traversal** is used to explore strongly connected components
-- **Metaheuristic optimization algorithms** are used to identify promising paths and support tactical recommendations
-
-The framework can be used for both:
-
-- **Pre-match analysis**
-- **In-game decision support**
-
----
-
 ## Installation
 
 Clone the repository:
@@ -125,6 +110,19 @@ git clone https://github.com/MasoudiYosef/GoalPath.git
 cd GoalPath
 ```
 ---
+
+## Library requirements
+
+The implemented algorithms require a minimal number of library dependencies, as all code has been developed in a library-free manner as much as possible. To run the algorithms, only the numpy and matplotlib libraries are required. These are used for numerical computations and matrix operations, and for visualizing the results, respectively.
+
+To install these libraries, users can run the following commands in the command prompt:
+
+- **pip install numpy**
+  
+- **pip install matplotlib**
+  
+---
+
 
 ## Usage
 
