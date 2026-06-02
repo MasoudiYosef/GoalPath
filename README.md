@@ -16,6 +16,7 @@ GoalPath divides a soccer field into multiple subfields, each represented as a n
 - Assist tactical evaluation through the analysis of previous matches and the identification of key opposing players.
 - Support team formation and lineup planning by considering the strengths, weaknesses, and playing patterns demonstrated by the opposing team.
 </p>
+
 ---
 
 ## Repository Contents
@@ -30,17 +31,17 @@ GoalPath/
 │── Wolf.py
 │── FireFly.py
 │── WOA.py
+│── GraphFunctions.py
+│── ShowField.py
 │── data/
 ```
 
 ---
 
 ## Datasets
-
-This repository includes datasets derived from **five real-world soccer matches**, with data organized separately for the **first half** and **second half** of each match.
-
-The **first-half datasets** were used as the **reference data**, while the **second-half datasets** were used as the **validation set**.
-
+<p align="justify">
+This repository includes datasets derived from 10 real-world soccer matches, with data organized separately for the first and second halves of each match. The first-half datasets were used as the reference data, while the second-half datasets served as the validation set. The match data are represented using a weighted edge list graph representation. In each text file, every row corresponds to an edge and contains the source node, target node, and the weight of the edge connecting them. In the context of GoalPath, nodes represent field subregions, while edge weights indicate the frequency of ball transitions between those subregions.
+</p>
 ### Match Summary
 
 | League Name | Target Team | Opponent Team | Match Date | Passes by Target Team (First Half) | Passes by Target Team (Second Half) | Final Score |
