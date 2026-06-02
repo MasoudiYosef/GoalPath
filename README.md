@@ -97,6 +97,7 @@ After running an algorithm, the results will be automatically generated in the R
 
 The generated files contain the best goal-scoring path identified during the optimization process, which can subsequently be analyzed by soccer analysts, coaches, and researchers for tactical evaluation and decision support.
 </p>
+
 ---
 
 ## Methodology
