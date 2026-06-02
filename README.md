@@ -247,6 +247,56 @@ Purpose:
 
 ---
 
+## Soccer Field Division into Subfields
+
+This module generates a visual representation of a soccer field and divides it into 50 equal subfields. Each subfield can be used as a node in a graph-based representation for soccer analytics tasks such as tracking ball movement, transition modeling, and tactical analysis in the GoalPath framework.
+
+---
+
+### Overview
+
+The soccer field is modeled as a rectangle of size:
+
+- Width: 80 units  
+- Height: 50 units  
+
+The field is divided into a 10 × 5 grid, resulting in 50 subfields. Each subfield is assigned a unique identifier (1 to 50), which can later be used as graph nodes.
+
+---
+
+### Features
+
+- Draws a full soccer field layout
+- Includes center circle and penalty areas
+- Divides the field into 50 equal rectangular zones
+- Labels each subfield with a unique ID
+- Saves both:
+  - Full field image (`Field.jpg`)
+  - Divided field image (`DividedField.jpg`)
+
+---
+
+### Field Construction
+
+The field includes the following components:
+
+- Outer boundary rectangle
+- Center circle
+- Penalty areas (left and right)
+- Halfway line
+- Grid overlay for subfield division
+
+---
+
+### Subfield Division
+
+- The field is divided into:
+  - 10 vertical segments
+  - 5 horizontal segments
+- Each cell represents one subfield
+- Subfields are numbered sequentially from left to right, bottom to top
+
+---
 
 ## Authors
 
