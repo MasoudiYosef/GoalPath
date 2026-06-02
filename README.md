@@ -247,7 +247,7 @@ Purpose:
 
 ---
 
-## Soccer Field Division into Subfields
+## Soccer Field Division into Subfields (ShowField.py)
 
 This module generates a visual representation of a soccer field and divides it into 50 equal subfields. Each subfield can be used as a node in a graph-based representation for soccer analytics tasks such as tracking ball movement, transition modeling, and tactical analysis in the GoalPath framework.
 
