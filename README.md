@@ -3,6 +3,7 @@
   
 **GoalPath** is a graph-based decision support framework for soccer match analysis and goal-oriented path discovery. It models soccer matches as graphs and applies graph traversal techniques, together with metaheuristic optimization algorithms, to identify promising goal-scoring paths, recommend player substitutions using the DFS algorithm, and support tactical decision-making by revealing potential weaknesses in the opposing team and the strategies they use to create scoring opportunities. Furthermore, these analyses can be extended to identify key players on the opposing team, enabling soccer analysts to develop strategies to neutralize their impact and prevent dangerous situations they may create.<br>
 This repository contains the datasets and source code associated with the optimization algorithms, as well as the additional algorithms used to generate the results reported in the paper. The code is freely available under the MIT License, and users are welcome to extend and modify it to suit their specific needs.
+
 </p>
 
 ---
@@ -74,6 +75,7 @@ The implemented algorithms are described below:
 **Firefly Algorithm (FF)**: This algorithm is inspired by the flashing behavior and attraction mechanism of fireflies. The file FireFly.py contains a ready-to-run implementation of the algorithm.
 </p>
 <p align="justify">
+  
 **Whale Optimization Algorithm (WOA)**: This algorithm is inspired by the social behavior and hunting strategies of whales. The file WOA.py contains a ready-to-run implementation of the algorithm.
 <p align="justify">
   
