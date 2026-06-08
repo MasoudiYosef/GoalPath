@@ -52,11 +52,11 @@ This repository includes datasets derived from 10 real-world soccer matches, wit
 | Turkish Süper Lig | Galatasaray | Beşiktaş | 04.10.2025 | 294 | 169 | 1–1 |
 | Spain La Liga | Real Madrid | Barcelona | 26.10.2025 | 258 | 197 | 2–1 |
 | Iran Premier League | Tractor | Persepolis | 30.10.2025 | 271 | 327 | 1–1 |
-| Italian Serie A | Inter Milan | Juventus | 14.02.2026 | 301 | 304 | 3–2 |
-| Major League Soccer | Inter Miami | New England | 05.10.2025 | 380 | 392 | 4–1 |
-| UEFA Champions League | PSG | Tottenham | 20.09.2025 | 350 | 348 | 5–3 |
-| Saudi Pro League | Al Nassr | Al Riyadh | 28.05.2025 | 284 | 274 | 5–1 |
-| Campeonato Brasileiro Série A | Palmeiras | Sporting Cristal | 30.10.2025 | 252 | 241 | 3–2 |
+| Italian Serie A | Inter Milan | Juventus | 14.02.2026 | 301 | 456 | 3–2 |
+| Major League Soccer | Inter Miami | New England | 05.10.2025 | 380 | 285 | 4–1 |
+| UEFA Champions League | PSG | Tottenham | 20.09.2025 | 350 | 272 | 5–3 |
+| Saudi Pro League | Al Nassr | Al Riyadh | 28.05.2025 | 284 | 292 | 5–1 |
+| Campeonato Brasileiro Série A | Palmeiras | Sporting Cristal | 30.10.2025 | 252 | 221 | 3–2 |
 
 ---
 
