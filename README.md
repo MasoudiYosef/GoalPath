@@ -58,6 +58,21 @@ This repository includes datasets derived from 10 real-world soccer matches, wit
 | Saudi Pro League | Al Nassr | Al Riyadh | 28.05.2025 | 284 | 292 | 5–1 |
 | Campeonato Brasileiro Série A | Palmeiras | Sporting Cristal | 30.10.2025 | 252 | 221 | 3–2 |
 
+
+
+Dataset abbreviations
+
+BF: Bayern Munich vs Freiburg
+CL: Chelsea vs Liverpool
+GB: Galatasaray vs Beşiktaş
+RB: Real Madrid vs Barcelona
+TP: Tractor vs Persepolis
+IJ: Inter vs Juventus
+IN: Inter Miami vs New England
+PT: Paris Saint-Germain (PSG) vs Tottenham
+NR: Al Nassr vs Al Riyadh
+SP: Sporting Cristal vs Palmeiras
+
 ---
 
 ## Implemented Optimization Algorithms
