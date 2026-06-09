@@ -62,16 +62,16 @@ This repository includes datasets derived from 10 real-world soccer matches, wit
 
 Dataset abbreviations
 
-BF: Bayern Munich vs Freiburg
-CL: Chelsea vs Liverpool
-GB: Galatasaray vs Beşiktaş
-RB: Real Madrid vs Barcelona
-TP: Tractor vs Persepolis
-IJ: Inter vs Juventus
-IN: Inter Miami vs New England
-PT: Paris Saint-Germain (PSG) vs Tottenham
-NR: Al Nassr vs Al Riyadh
-SP: Sporting Cristal vs Palmeiras
+BF: Bayern Munich vs Freiburg<br>
+CL: Chelsea vs Liverpool<br>
+GB: Galatasaray vs Beşiktaş<br>
+RB: Real Madrid vs Barcelona<br>
+TP: Tractor vs Persepolis<br>
+IJ: Inter vs Juventus<br>
+IN: Inter Miami vs New England<br>
+PT: Paris Saint-Germain (PSG) vs Tottenham<br>
+NR: Al Nassr vs Al Riyadh<br>
+SP: Sporting Cristal vs Palmeiras<br>
 
 ---
 
